@@ -10,7 +10,7 @@ var users = require('./routes/users');
 var photos = require('./routes/photos');
 var albums = require('./routes/albums');
 var globals = require('./lib/globals');
-var mysql       = require('mysql');
+var mysql = require('mysql');
 var app = express();
 
 // view engine setup
